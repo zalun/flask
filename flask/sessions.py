@@ -380,6 +380,6 @@ class SecureCookieSessionInterface(SessionInterface):
             httponly=httponly,
             domain=domain,
             path=path,
-            secure=secure,
+            secure=False,
             samesite=samesite
         )
