@@ -378,7 +378,7 @@ class SecureCookieSessionInterface(SessionInterface):
             val,
             expires=expires,
             httponly=httponly,
-            domain='bonkers',
+            domain=domain,
             path=path,
             secure=False,
             samesite=samesite
